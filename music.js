@@ -3,7 +3,7 @@ const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config.json');
 const Youtube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const ffmpeg = require('ffmpeg'); 
-const ytdl = require('ytdl-core'); 
+
 const ownerID = '424916247696900135'
 const client = new Client({ disableEveryone: true });
 
