@@ -1,0 +1,13 @@
+{
+  "name": "music",
+  "description": "music",
+  "version": "1.0.0",
+  "main": "music.js",
+  "scripts": {
+    "start": "node music.js"
+},
+  "dependencies": {
+    "simple-youtube-api": "^5.0.1",
+    "ytdl-core": "^0.20.2"
+  }
+}
