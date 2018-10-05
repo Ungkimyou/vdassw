@@ -7,6 +7,8 @@
     "start": "node music.js"
 },
   "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg": "^0.0.4",
     "simple-youtube-api": "^5.0.1",
     "ytdl-core": "^0.20.2"
   }
