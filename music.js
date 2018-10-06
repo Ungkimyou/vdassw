@@ -34,7 +34,10 @@ client.on('warn', console.warn);
 
 client.on('error', console.error);
 
-client.on('ready', () => console.log('im ready!'));
+client.on('ready', () =>
+bot.user.setActivity('testing') 
+
+console.log('im ready!'));
 
 client.on('disconnect', () => console.log('disconnected, reconnecting now....'));
 
