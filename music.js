@@ -13,6 +13,10 @@ const queue = new Map();
 
 
  
+client.on("ready", () => { 
+  console.log("Booted"); 
+    client.user.setActivity(prefix + "help") 
+}); 
 
 
 
