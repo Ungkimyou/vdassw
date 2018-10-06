@@ -21,7 +21,6 @@ client.on('warn', console.warn);
 client.on('error', console.error);
 
 client.on('ready', () =>
-client.user.setActivity('testing') 
 
 console.log('im ready!'));
 
