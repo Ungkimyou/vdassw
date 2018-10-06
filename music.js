@@ -11,6 +11,25 @@ const youtube = new Youtube(GOOGLE_API_KEY);
 
 const queue = new Map();
 
+var oyun = [
+  `I just testing`, 
+  `I love You baby`, 
+  `The Best Server Discord`,
+  `I Need U Here xD`,
+  `Server that testing bot`,
+`${prefix} is prefix|Using ${(((process.memoryUsage().heapUsed)/1024)/1024).toFixed(0)}Mb's of RAM`,
+`server link invite https://discord.gg/2n2MNJ6`];
+ 
+setInterval(function() {
+ 
+  var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
+ 
+  client.user.setGame(oyun[random], "https://www.twitch.tv/UngKimYou");
+  }, 15000);
+ 
+
+
+
 client.on('warn', console.warn);
 
 client.on('error', console.error);
